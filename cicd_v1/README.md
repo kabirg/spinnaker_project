@@ -111,11 +111,17 @@ hal deploy connect
 
 
 #### Add GitHub Account to Spinnaker
-
-
+```
+hal config artifact github account add kabirg
+hal deploy apply
+```
 
 
 #### Configure ECR to store images pushed by Jenkins.
+
+
+
+
 #### Configure Jenkins to build/push Docker images.
 #### Build the CD Spinnaker pipeline.
 #### Run the pipeline and deploy the app.
