@@ -118,11 +118,18 @@ hal deploy apply
 
 
 #### Configure ECR to store images pushed by Jenkins.
-
-
+ECR > Repositories > Create Repo >
+-  Create a public repo call `kag-sample-microservice`
 
 
 #### Configure Jenkins to build/push Docker images.
+Jenkins > New Item > Freestyle Project >
+- Call it `kag-sample-microservice-job`
+- 
+
+
+
+
 #### Build the CD Spinnaker pipeline.
 #### Run the pipeline and deploy the app.
 
