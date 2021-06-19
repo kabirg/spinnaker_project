@@ -182,10 +182,16 @@ Here we'll do the following:
 - Create the pipeline stages (bake and deploy).
 
 ##### Create the Spinnaker app.
-
-
+Only name and email are required params.
 
 ##### Create the Spinnaker pipeline.
+In the app > Pipelines > Configure New Pipeline.
+
+Setup the Automated Trigger
+*We'll configure the pipeline so that it's triggered by a push of a new image to ECR*
+- Type: Docker Registry
+
+
 ##### Setup artifacts (base and override Helm templates to deploy our app into EKS, and the Docker image).
 ##### Setup pipeline trigger.
 ##### Create the pipeline stages (bake and deploy).
